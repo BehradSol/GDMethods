@@ -4,13 +4,13 @@ function [f,grad] = LogisticRegression(N,m)
     y = [zeros(1,N/2),ones(1,N/2)];
     
      
-    if (m == 2)
+    if (m <= 2)
         figure
         for i = 1 : N
             if (i <= N/2)
-                plot(X(1,i),X(2,i),'rX')
+                plot(X(1,i),(m-1)*X(m,i),'rX')
             else
-                plot(X(1,i),X(2,i),'bO')
+                plot(X(1,i),(m-1)*X(m,i),'bO')
             end
             hold on
         end

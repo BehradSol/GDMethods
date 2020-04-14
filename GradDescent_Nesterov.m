@@ -13,7 +13,7 @@ function [x, res] = GradDescent_Nesterov(f, grad, x0, MaxIterations, Tol)
     res = [];
     L = LipschitzEstimation(grad, x0);
     tau = 0.5/L;
-%     alpha = 05;
+%     alpha = 0.5;
     lastx = x0;
     lasty = x0;
     lastdelta = 1;
@@ -40,13 +40,3 @@ function [x, res] = GradDescent_Nesterov(f, grad, x0, MaxIterations, Tol)
     end
 end
 
-function [L] = LipschitzEstimation(g, x)
-    L = 1e10;
-    for i = 1 : 100
-        y = x + randn(size(x));
-        Ltemp = norm(g(x) - g(y))/norm(x-y);
-        if (Ltemp < L)
-            L = Ltemp;
-        end
-    end
-end

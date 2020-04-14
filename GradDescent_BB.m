@@ -36,13 +36,3 @@ function [x, res] = GradDescent_BB(f, grad, x0, MaxIterations, Tol)
     end
 end
 
-function [L] = LipschitzEstimation(g, x)
-    L = 1e10;
-    for i = 1 : 100
-        y = x + randn(size(x));
-        Ltemp = norm(g(x) - g(y))/norm(x-y);
-        if (Ltemp < L)
-            L = Ltemp;
-        end
-    end
-end

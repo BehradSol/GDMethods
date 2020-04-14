@@ -7,17 +7,15 @@ close all
 
 
 N = 1000;
-m = 2;
+m = 3;
 [f,grad] = LogisticRegression(N,m);
 
 w0 = zeros(m,1);
 
-[w, res] = GradDescent(f, grad, w0);
-w
-[w, res_BB] = GradDescent_BB(f, grad, w0);
-w
-[w, res_Nesterov] = GradDescent_Nesterov(f, grad, w0);
-w
+[~, res] = GradDescent(f, grad, w0);
+[~, res_BB] = GradDescent_BB(f, grad, w0);
+[~, res_Nesterov] = GradDescent_Nesterov(f, grad, w0);
+
 figure
 semilogy(res,'k--','LineWidth',2)
 hold on
