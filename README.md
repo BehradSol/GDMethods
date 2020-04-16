@@ -12,19 +12,19 @@ Date: April 25, 2020
 Requirements: implemented in Matlab R2019a version, but should run on most versions.
 
 Contents: 
-> main.m:       Master script. 
+> main.m:       **Master script**. 
 
-> GradDescent.m:       *Gradient descent with (backtracking) line search*.
+> GradDescent.m:       Gradient descent with (backtracking) line search.
 
-> *GradDescent_BB.m*:  **Gradient descent with Barzilai-Borwein update**.
+> GradDescent_BB.m:  **Gradient descent with Barzilai-Borwein update**.
 
 > GradDescent_Nesterov.m:  Nesterov accelerated gradient descent.
 
-> LipschitzEstimation.m:  Lipschitz constant estimation function.
+> LipschitzEstimation.m:  **Lipschitz constant estimation function**.
 
 > LogisticRegression.m:  Logistic regression objective function.
 
-> GDMethods.pdf: Derivation and details.
+> GDMethods.pdf: **Derivation and details**.
 
 Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate one example described below. To use the functions individually, please look at the function descriptions. The derivations and details are also explained in .pdf file.
 
