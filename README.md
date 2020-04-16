@@ -16,7 +16,7 @@ Contents:
 
 > GradDescent.m:       *Gradient descent with (backtracking) line search*.
 
-> GradDescent_BB.m:  **Gradient descent with Barzilai-Borwein update**.
+> *GradDescent_BB.m*:  **Gradient descent with Barzilai-Borwein update**.
 
 > GradDescent_Nesterov.m:  Nesterov accelerated gradient descent.
 
@@ -37,5 +37,5 @@ In Fig.1, the estimated verions of the source #1, i.e. non-causal belifes p(x<su
 
 | ![](Figs/GD.png) | 
 |:--:| 
-| Fig 1. Comparison of the conventional filtering and EfficientFFBS |
+| Fig 1. Comparison of the gradient descent algorithms|
 
