@@ -12,11 +12,11 @@ function [L] = LipschitzEstimation(g, x)
     % L  = estimated Lipschitz constant
     % ---------------------------------------------------------------------
 
-    L = 1e10;
+    L = -1e10;
     for i = 1 : 100
         y = x + randn(size(x));
         Ltemp = norm(g(x) - g(y))/norm(x-y);
-        if (Ltemp < L)
+        if (Ltemp > L)
             L = Ltemp;
         end
     end
