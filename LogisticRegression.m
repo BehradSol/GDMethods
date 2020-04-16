@@ -35,7 +35,6 @@ function [f,grad] = LogisticRegression(N,m)
     g = @(z) 1./(1 + exp(-z));
 
     f = @(w) -sum(y.*mylogg(g(w'*X))+(1-y).*mylogg(1-g(w'*X)));
-
     grad  = @(w) -sum( repmat(y - g(w'*X),m,1) .* X , 2);
 end
 

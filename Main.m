@@ -26,5 +26,5 @@ legend('Gradient Descent','Gradient Descent-BB','Gradient Descent-Nesterov')
 grid on
 xlabel('# of iterations')
 ylabel('Residual error')
-axis('square')
+
 

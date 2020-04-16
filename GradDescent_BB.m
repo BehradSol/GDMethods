@@ -1,7 +1,7 @@
 %% This file is distributed under BSD (simplified) license
 %% Author: Behrad Soleimani <behrad@umd.edu>
 
-function [x, res] = GradDescent_BB(f, grad, x0, MaxIterations, Tol)
+function [x, res] = GradDescent_BB(f, grad, x0, max_iterations, tol)
     % This function implements gradient descent algorithm, Barzilai-Borwein
     % (BB) version, with (backtracking) line search (Armijo condition).
     
@@ -18,11 +18,11 @@ function [x, res] = GradDescent_BB(f, grad, x0, MaxIterations, Tol)
     % ---------------------------------------------------------------------
 
     if nargin < 5
-        Tol = 1e-4;
+        tol = 1e-4;
     end
     
     if nargin < 4
-        MaxIterations = 1e4;
+        max_iterations = 1e4;
     end
 
     res = [];
@@ -31,7 +31,7 @@ function [x, res] = GradDescent_BB(f, grad, x0, MaxIterations, Tol)
     alpha = 0.1;
     lastx = x0;
     
-    for i = 1 : MaxIterations
+    for i = 1 : max_iterations
         d = -grad(lastx);
 
         while (f(lastx + tau*d)>= f(lastx) - alpha*tau*(norm(d)^2) && tau > 1e-20)
@@ -39,7 +39,7 @@ function [x, res] = GradDescent_BB(f, grad, x0, MaxIterations, Tol)
         end
         x = lastx + tau*d;
 
-        if (norm(grad(x)) < norm(grad(x0))*Tol)
+        if (norm(grad(x)) < norm(grad(x0))*tol)
             break;
         end
 
