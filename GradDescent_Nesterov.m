@@ -2,6 +2,21 @@
 %% Author: Behrad Soleimani <behrad@umd.edu>
 
 function [x, res] = GradDescent_Nesterov(f, grad, x0, MaxIterations, Tol)
+    % This function implements Nesterov accelerated gradient descent 
+    % algorithm.
+    
+    % Inputs:
+    % f                = objective function
+    % grad             = gradient of objective function
+    % x0               = initial point
+    % MaxIterations    = maximum number of iterations (def. = 1e4)
+    % Tol              = convergence tolerance (def. = 1e-4)
+
+    % Outputs:
+    % x     = converged solution
+    % res   = norm of the residual error
+    % ---------------------------------------------------------------------
+
     if nargin < 5
         Tol = 1e-4;
     end
