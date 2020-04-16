@@ -14,7 +14,7 @@ Requirements: implemented in Matlab R2019a version, but should run on most versi
 Contents: 
 > main.m:       Master script. 
 
-> GradDescent.m:       Gradient descent with (beacktracking) line search.
+> GradDescent.m:       *Gradient descent with (beacktracking) line search*.
 
 > GradDescent_BB.m:  Gradient descent with Barzilai-Borwein update.
 
