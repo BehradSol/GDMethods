@@ -32,20 +32,8 @@ Example:
 
 In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we may maximize the corss-entropy via gradient descent algorithm:
 
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "$\\mathbf{x}_t$"
-   ]
-  }
- ],
- "nbformat": 4,
- "nbformat_minor": 5,
- "metadata": {}
-}
+**x**<sub>*t*</sub>
+
 In Fig.1, the estimated verions of the source #1, i.e. non-causal belifes p(x<sub>t</sub> | y<sub>1:T</sub>), and ground truth are compared. As it can be seen, the performance of the conventional filtering scheme (Kalman filtering) is almost the same as the EfficientFFBS. 
 
 
