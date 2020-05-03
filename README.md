@@ -41,7 +41,7 @@ where g(*z*) = 1/(1 + *e*<sup> − *z*</sup>). Moreover, **x**<sup>(
 
 
 
-Fig.1 shows the convergence of three different gradient descent methods.
+Fig.1 shows the convergence of three different gradient descent methods over a *N=100* data points in a 3-D feature space.
 
 | ![](Figs/GD.png) | 
 |:--:| 
