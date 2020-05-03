@@ -41,7 +41,7 @@ where g(*z*) = 1/(1 + *e*<sup> − *z*</sup>). Moreover, **x**<sup>(
 
 
 
-Fig.1 shows the convergence of three different gradient descent methods over a *N=100* data points in a 3-D feature space.
+Fig.1 shows the convergence of three different gradient descent methods over *N=100* data points in a 3-D feature space.
 
 | ![](Figs/GD.png) | 
 |:--:| 
@@ -59,3 +59,5 @@ where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent th
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59627073/80926450-61307380-8d65-11ea-9d3f-92e922e45765.jpg">
 </p>
+
+In Fig.2, the convergence of projection gradient descent is demonstrated over *N=100* data points in a 2-D feature space.
