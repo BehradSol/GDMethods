@@ -32,6 +32,9 @@ Example:
 
 In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we maximize the corss-entropy loss via gradient descent algorithms.
 
+$\\underser{\\max}{\\theta}$
+
+
 Fig.1 shows the convergence of three different gradient descent methods.
 
 | ![](Figs/GD.png) | 
