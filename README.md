@@ -30,12 +30,11 @@ Instructions: Simple and easy. Download all the codes in a directory and run mai
 
 Example:
 
-In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we may maximize the corss-entropy via gradient descent algorithm:
+In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we maximize the corss-entropy loss via gradient descent algorithms.
 
-$$ \log e^2$$
+min<sub>*θ*</sub> ∑<sub>*i* = 1</sub>
 
-In Fig.1, the estimated verions of the source #1, i.e. non-causal belifes p(x<sub>t</sub> | y<sub>1:T</sub>), and ground truth are compared. As it can be seen, the performance of the conventional filtering scheme (Kalman filtering) is almost the same as the EfficientFFBS. 
-
+Fig.1 shows the convergence of three different gradient descent methods.
 
 | ![](Figs/GD.png) | 
 |:--:| 
