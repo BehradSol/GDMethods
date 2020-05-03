@@ -30,9 +30,16 @@ Instructions: Simple and easy. Download all the codes in a directory and run mai
 
 Example:
 
-In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we maximize the corss-entropy loss via gradient descent algorithms.
+In this example, we consider a logistic regression problem with binary labels. In order to calssify the samples, we maximize the corss-entropy loss via gradient descent algorithms:
 
-min<sub>*θ*</sub> ∑<sub>*i* = 1</sub>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59627073/80921619-3df5cc00-8d45-11ea-9ae9-a354a4eb49e2.jpg">
+</p>
+
+where g(*z*) = 1/(1 + *e*<sup> − *z*</sup>). Moreover, **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {0, 1} represent the *i*-th data point and label, respectively. 
+
+
+
 
 Fig.1 shows the convergence of three different gradient descent methods.
 
