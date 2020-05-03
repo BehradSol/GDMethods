@@ -53,3 +53,5 @@ As an example of projection gradient descent, we solve a support vector machine 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59627073/80923174-e446cf00-8d4f-11ea-9dd0-ed418a2b48c1.jpg">
 </p>
+
+where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent the *i*-th data point and label, respectively. The obtained plane is eplained as  
