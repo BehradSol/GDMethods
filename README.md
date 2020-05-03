@@ -47,3 +47,9 @@ Fig.1 shows the convergence of three different gradient descent methods.
 |:--:| 
 | Fig 1. Comparison of the gradient descent algorithms|
 
+
+As an example of projection gradient descent, we solve a support vector machine (SVM) classification. The dual problem of a soft-SVM is given by
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59627073/80923174-e446cf00-8d4f-11ea-9dd0-ed418a2b48c1.jpg">
+</p>
