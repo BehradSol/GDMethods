@@ -52,7 +52,7 @@ As an example of projection gradient descent, we solve a support vector machine 
   <img src="https://user-images.githubusercontent.com/59627073/80931107-d318b500-8d85-11ea-8550-bbab1ececf77.jpg">
 </p>
 
-where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent the *i*-th data point and label, respectively, and *ϕ* is the kerenl (mapping) function. The classification is expressed as
+where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent the *i*-th data point and label, respectively, and *ϕ(.)* is the kerenl (mapping) function. The classification is expressed as
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59627073/80926450-61307380-8d65-11ea-9d3f-92e922e45765.jpg">
