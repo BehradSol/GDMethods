@@ -62,4 +62,4 @@ In Fig.2, the soft-SVM classification is demonstrated over *N=100* data points i
 
 | ![](Figs/SVM.png) | 
 |:--:| 
-| Fig 1. Soft-SVM for three different types of data (without bias term)|
+| Fig 2. Soft-SVM for three different types of data (without bias term)|
