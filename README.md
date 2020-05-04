@@ -58,4 +58,8 @@ where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent th
   <img src="https://user-images.githubusercontent.com/59627073/80926450-61307380-8d65-11ea-9d3f-92e922e45765.jpg">
 </p>
 
-In Fig.2, the convergence of projection gradient descent is demonstrated over *N=100* data points in a 2-D feature space.
+In Fig.2, the soft-SVM classification is demonstrated over *N=100* data points in a 2-D feature space. It is worth mentioning that we exclude the bias term, i.e. *b=0*.
+
+| ![](Figs/SVM.png) | 
+|:--:| 
+| Fig 2. Soft-SVM for three different types of data (without bias term)|
