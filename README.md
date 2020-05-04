@@ -20,9 +20,13 @@ Contents:
 
 > GradDescent_Nesterov.m:  **Nesterov accelerated gradient descent**.
 
+> ProjGradDescent.m:  **Projected Gradient descent**.
+
 > LipschitzEstimation.m:  **Lipschitz constant estimation function**.
 
 > LogisticRegression.m:  **Logistic regression objective function**.
+
+> DualSVM.m :  **Dual soft-SVM objective function**.
 
 > GDMethods.pdf: **Derivation and details**.
 
