@@ -1,7 +1,7 @@
 # GDMethods
 Gradient Descent Methods
 
-Description: This repository contains implementations of different verions of gradient descent algorithms.
+Description: This repository contains implementations of different verions of gradient descent algorithm.
 
 Copyright (c) 2020 Behrad Soleimani All Rights Reserved
 
