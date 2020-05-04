@@ -1,7 +1,7 @@
 # GDMethods
 Gradient Descent Methods
 
-Description: This repository contains implementations of different verions of gradient descent algorithms.
+Description: This repository contains implementations of different verions of gradient descent algorithm.
 
 Copyright (c) 2020 Behrad Soleimani All Rights Reserved
 
@@ -39,9 +39,7 @@ In this example, we consider a logistic regression problem with binary labels. I
 where g(*z*) = 1/(1 + *e*<sup> − *z*</sup>). Moreover, **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {0, 1} represent the *i*-th data point and label, respectively. 
 
 
-
-
-Fig.1 shows the convergence of three different gradient descent methods.
+Fig.1 shows the convergence of three different gradient descent methods over *N=100* data points in a 3-D feature space.
 
 | ![](Figs/GD.png) | 
 |:--:| 
@@ -51,5 +49,13 @@ Fig.1 shows the convergence of three different gradient descent methods.
 As an example of projection gradient descent, we solve a support vector machine (SVM) classification. The dual problem of a soft-SVM is given by
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/59627073/80923174-e446cf00-8d4f-11ea-9dd0-ed418a2b48c1.jpg">
+  <img src="https://user-images.githubusercontent.com/59627073/80931107-d318b500-8d85-11ea-8550-bbab1ececf77.jpg">
 </p>
+
+where **x**<sup>(*i*)</sup> and *y*<sup>(*i*)</sup> ∈ {-1, 1} represent the *i*-th data point and label, respectively, and *ϕ(.)* is the kerenl (mapping) function. The classification is expressed as
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59627073/80926450-61307380-8d65-11ea-9d3f-92e922e45765.jpg">
+</p>
+
+In Fig.2, the convergence of projection gradient descent is demonstrated over *N=100* data points in a 2-D feature space.
