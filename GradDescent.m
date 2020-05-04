@@ -33,7 +33,7 @@ function [x, res] = GradDescent(f, grad, x0, max_iterations, tol)
     
     for i = 1 : max_iterations
         d = -grad(lastx);
-        while (f(lastx + tau*d)>= f(lastx) - alpha*tau*(norm(d)^2) && tau > 1e-5)
+        while (f(lastx + tau*d)>= f(lastx) - alpha*tau*(norm(d)^2) && tau > 1e-6)
             tau = tau / 2;
         end
         x = lastx + tau*d;

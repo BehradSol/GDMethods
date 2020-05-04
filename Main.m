@@ -7,7 +7,7 @@ close all
 
 %% Logistic regression
 
-% N = 1000;
+% N = 100;
 % m = 3;
 % [f,grad] = LogisticRegression(N,m);
 % 

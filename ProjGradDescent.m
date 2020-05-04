@@ -2,7 +2,7 @@
 %% Author: Behrad Soleimani <behrad@umd.edu>
 
 function [x, res] = ProjGradDescent(f, grad, x0, A, b, Aeq, beq, max_iterations, tol)
-    % This function implements projection gradient descent algorithm with 
+    % This function implements projected gradient descent algorithm with 
     % (backtracking) line search (Armijo condition).
     
     % Inputs:
