@@ -28,9 +28,8 @@ Contents:
 
 > DualSVM.m :  **Dual soft-SVM objective function**.
 
-> GDMethods.pdf: **Derivation and details**.
 
-Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate one example described below. To use the functions individually, please look at the function descriptions. The derivations and details are also explained in .pdf file.
+Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate one example described below. To use the functions individually, please look at the function descriptions. 
 
 Example:
 
